@@ -1,0 +1,114 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; font-size: 16px;
+    background-image: url(../imagens/plano\ de\ fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+button {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+    .titulo {
+        color: #000;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+        padding: 15px;
+    }
+    .fontehome {
+        color: #000;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .fontepage {
+        color: #000;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+                display: flex;
+        justify-content: center;
+        margin: 0px 650px;
+        text-align: justify;
+    }
+    .front {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        border: 0;
+        position: relative;
+    }
+    .card {
+        opacity: 0;
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        padding: 40px;
+    }
+    .card.select {
+        opacity: 1;
+        z-index: 1;
+    }
+    .card h4 {
+        display: flex;
+        justify-content: center;
+    }
+    .card h2 {
+        display: flex;
+        justify-content: center;
+    }
+    .seta-mod {
+        background-color: azure;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        border: 0;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .seta-mod:hover {
+        background-color: rgb(160, 21, 0);
+    }
+    .seta-mod .left {
+        display: flex;
+        justify-content: left;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .seta-mod .right {
+        display: flex;
+        justify-content: right;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .escala-seta-e{
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    .escala-seta-d{
+        padding-top: 10%;
+        padding-right: 10%;
+    }
