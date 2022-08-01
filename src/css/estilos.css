@@ -82,7 +82,7 @@ button {
     .seta-mod {
         background-color: azure;
         width: 70px;
-        height: 70px;
+        height: 200px;
         border-radius: 50px;
         border: 0;
         cursor: pointer;
@@ -111,4 +111,20 @@ button {
     .escala-seta-d{
         padding-top: 10%;
         padding-right: 10%;
+    }
+
+    /* OTHERS PAGES !!! */
+    .fontepage2 {
+        color: #000;
+      text-shadow: 
+               -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 650px;
+        text-align: justify;
     }
